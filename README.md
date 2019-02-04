@@ -1,6 +1,12 @@
 # Lousy Project Name
 
+## NSFW
+
 Generate lousy Heroku-like random names from the command line.
+
+## Demo
+
+[https://lpn.surge.sh](https://lpn.surge.sh)
 
 ## Running
 
