@@ -204,6 +204,11 @@ const NOUNS: &[&str] = &[
     "schlong",
     "beershits",
     "pocket",
+    "these",
+    "names",
+    "are",
+    "really",
+    "offensive"
 ];
 
 #[wasm_bindgen]
