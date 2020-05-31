@@ -1,8 +1,6 @@
 extern crate rand;
-extern crate wasm_bindgen;
 
 use rand::{thread_rng, Rng};
-use wasm_bindgen::prelude::*;
 
 const ADJECTIVES: &[&str] = &[
     "fart",
@@ -211,7 +209,6 @@ const NOUNS: &[&str] = &[
     "offensive"
 ];
 
-#[wasm_bindgen]
 pub extern "C" fn generate_name() -> String {
     // Define some RNG
     let mut rng = thread_rng();

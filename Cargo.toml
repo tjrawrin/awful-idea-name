@@ -1,12 +1,8 @@
 [package]
-name = "lousy_project_name"
-version = "0.2.0"
-authors = ["Tim Warrington <tim.warrin@gmail.com>"]
+name = "terrible-project-name"
+version = "0.3.0"
+authors = ["Timothy Warrington <tim.warrin@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-wasm-bindgen = "0.2.33"
-rand = { version = "0.6.4", features = ["wasm-bindgen"] }
-
-[lib]
-crate-type = ["cdylib"]
+rand = "0.7.3"

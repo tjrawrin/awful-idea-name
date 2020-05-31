@@ -2,15 +2,20 @@
 
 ## NSFW
 
-Generate lousy Heroku-like random names from the command line.
+Generate terrible Heroku-like random names.
 
-## Demo
+## Installation
 
-[https://lpn.surge.sh](https://lpn.surge.sh)
+Add to your `Config.toml` dependencies
 
-## Running
+```
+[dependencies]
 
-1. Install Rust
-2. `cd` into the project directory
-3. Run `cargo build --release`
-4. Execute the binary in the `target/release` directory
+terrible-project-name = "0.3.0"
+```
+
+## Usage
+
+```
+Coming soon...
+```
