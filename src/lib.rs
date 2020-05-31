@@ -2,7 +2,7 @@ extern crate rand;
 
 use rand::{thread_rng, Rng};
 
-const ADJECTIVES: &[&str] = &[
+pub const ADJECTIVES: &'static [&'static str] = &[
     "fart",
     "weed",
     "poop",
@@ -124,7 +124,7 @@ const ADJECTIVES: &[&str] = &[
     "vibrating",
 ];
 
-const NOUNS: &[&str] = &[
+pub const NOUNS: &'static [&'static str] = &[
     "fan",
     "dude",
     "man",
@@ -218,8 +218,8 @@ const NOUNS: &[&str] = &[
 /// ```
 #[derive(Debug)]
 pub struct AwfulIdeaName<'a> {
-    adjectives: &'a [&'a str],
-    nouns: &'a [&'a str],
+    pub adjectives: &'a [&'a str],
+    pub nouns: &'a [&'a str],
 }
 
 impl<'a> Default for AwfulIdeaName<'a> {
