@@ -10,7 +10,6 @@ Add to your `Config.toml` dependencies
 
 ```
 [dependencies]
-
 awful-idea-name = "0.3.0"
 ```
 
