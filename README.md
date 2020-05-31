@@ -1,8 +1,8 @@
-# Lousy Project Name
+# Awful Idea Name
 
 ## NSFW
 
-Generate terrible Heroku-like random names.
+Generate random awful Heroku-like idea names.
 
 ## Installation
 
@@ -11,7 +11,7 @@ Add to your `Config.toml` dependencies
 ```
 [dependencies]
 
-terrible-project-name = "0.3.0"
+awful-idea-name = "0.3.0"
 ```
 
 ## Usage
