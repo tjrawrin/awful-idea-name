@@ -3,6 +3,7 @@ extern crate rand;
 use rand::{thread_rng, Rng};
 
 pub const ADJECTIVES: &'static [&'static str] = &[
+    "aword",
     "fart",
     "weed",
     "poop",
