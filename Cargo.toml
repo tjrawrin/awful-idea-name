@@ -2,7 +2,7 @@
 name = "awful-idea-name"
 version = "0.3.0"
 authors = ["Timothy Warrington <tim.warrin@gmail.com>"]
-edition = "2018"
+edition = "2020"
 description = "Generate awful idea names for your next awful idea"
 license = "MIT/Apache-2.0"
 
