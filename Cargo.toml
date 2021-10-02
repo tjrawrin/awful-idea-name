@@ -1,6 +1,6 @@
 [package]
 name = "awful-idea-name"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["Timothy Warrington <tim.warrin@gmail.com>"]
 edition = "2018"
 description = "Generate awful idea names for your next awful idea"
